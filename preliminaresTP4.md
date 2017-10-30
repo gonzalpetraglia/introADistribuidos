@@ -1,3 +1,10 @@
+1) 
+a) Falso, una de las diferencias es que en la red ALOHA no se sensa el medio antes de enviar una trama para identificar si hay otro nodo transmitiendo.
+b) Falso, con Slotted ALOHA se previenen las colisiones en las que una trama es enviada y cuando falta poco tiempo para que la transmision de esta termine, otra trama es enviada, produciendo asi una colision minima en tiempo pero que anula ambas transmisiones completamente.
+c) 
+
+
+
 Practica 1
 ----------
 Bloqueo: En este estado se pueden recibir BPDU's pero no las enviará. Las tramas de datos se descartan y no se actualizan las tablas de direcciones MAC (mac-address-table). Los switch comienzan en este estado ya que si realizan envíos (forwarding) podrían estar generando un loop o bucle.
