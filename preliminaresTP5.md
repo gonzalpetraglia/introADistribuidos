@@ -19,7 +19,7 @@ h.  Falso, ya que X.25 realiza tanto chequeo de errores end-to-end asi como tamb
 
 2.
 
-a. 
+a.  Falso, si bien Frame Relay fue inicialmente pensado para ser montado sobre la infraestructura ISDN esto no es obligatorio para toda las implementaciones.
 
 b.  Verdadero, Frame Relay es un estandar que determina la capa fisica y la capa de conexion de datos con una metodologia de conmutación de paquetes.
 
@@ -29,12 +29,12 @@ d.  Falso, Frame Relay solo especifica dos capas y el DLCI pertenece a la capa d
 
 e.  Falso, los circuitos virtuales en FR se pueden denominar PVC(permanent virtual circuit) o SVC(switched VC), VPI es una denominacion perteneciente a ATM.
 
-f.
-
+f.  Falso, los circuitos virtuales de FR, si bien tienen un ancho de banda garantizado, tambien tienen un ancho de banda mayor disponible para las eventuales rafagas de información.
+ 
 g. Falso, en general todos los paquetes que pertenecen a una misma llamada utilizan siempre el mismo camino. Cabe destacar que si utilizamos SVC, es posible que paquetes de distintas llamadas tomen caminos diferentes.
 
 
-h.
+h.  Verdadero, gracias a que los enlaces Frame Relay se comparten por lo que los costos quedan divididos.
 
 
 
@@ -50,8 +50,8 @@ d.  Falso, si bien es posible tecnicamente el costo del hardware utilizado en AT
 
 e.  Verdadero, ATM trabaja con velocidades entre 155,520 Mbit/s y 622,080 Mbit/s.
 
-f. 
+f.  Falso, el par VPI/VCI es equivalente al DLCI.
 
-g.  
+g.  Verdadero, el VCI se define para ambos sentidos de la comunicación.
 
-h.  
+h.  Verdadero, ATM no define la capa fisica sobre la que se monta.
