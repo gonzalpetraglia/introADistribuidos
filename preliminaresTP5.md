@@ -30,3 +30,28 @@ d.  Falso, Frame Relay solo especifica dos capas y el DLCI pertenece a la capa d
 e.  Falso, los circuitos virtuales en FR se pueden denominar PVC(permanent virtual circuit) o SVC(switched VC), VPI es una denominacion perteneciente a ATM.
 
 f.
+
+g. Falso, en general todos los paquetes que pertenecen a una misma llamada utilizan siempre el mismo camino. Cabe destacar que si utilizamos SVC, es posible que paquetes de distintas llamadas tomen caminos diferentes.
+
+
+h.
+
+
+
+3. 
+
+a. Verdadero, ATM y FR se siguen utilizando actualmente, aunque FR tenga cada vez menos popularidad, esta sigue siendo en algunos casos la mejor opcion para conectar areas aisladas a redes WAN, gracias a su bajo costo.
+
+b. Falso, si bien ATM utiliza celulas de tamaño fijo estas son de 53 bytes, de los cuales 48 bytes son de datos y 5 de encabezado.
+
+c. Verdadero, ATM puede categorizar la informacion transmitida para proveer distintos tipos de garantia, permitiendo asi transmitir confiablemente informacion en tiempo real (como voz y video) y utilizar el ancho de banda restante para la transmision de datos menos sensibles a la latencia.
+
+d.  Falso, si bien es posible tecnicamente el costo del hardware utilizado en ATM lo hace prohibitivo para implementaciones de redes de area reducida.
+
+e.  Verdadero, ATM trabaja con velocidades entre 155,520 Mbit/s y 622,080 Mbit/s.
+
+f. 
+
+g.  
+
+h.  
