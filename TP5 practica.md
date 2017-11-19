@@ -97,4 +97,8 @@ encapsulation aal5snap
 protocol ip 192.168.25.4 broadcast
 ```
 
+  Una vez agregado la configuración anterior, todos los traceroute ejecutados en R4 llegan satisfactoriamente a cada uno de los routers destinos, mostrando cada uno de  los nodos intermedios. 
+  Para el caso de R3 se ve solo R3.
+  Para el caso de R1 se ve R3 y R1.
+  Para el caso de R2 se ve R3, R1 y R4.
 
