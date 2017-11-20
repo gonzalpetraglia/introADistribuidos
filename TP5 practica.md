@@ -102,3 +102,21 @@ protocol ip 192.168.25.4 broadcast
   Para el caso de R1 se ve R3 y R1.
   Para el caso de R2 se ve R3, R1 y R4.
 
+# Ejercicio  2
+
+  1. En los routers P se pueden ver las siguientes configuraciones adicionales:
+  * El rango de labels mediante el comando *mpls label range n m*
+  * La definicion de que cada una de las interfaces es apta para utilizar MPL mediante la sentencia *mpls ip* en cada una de ellas.
+  
+  
+  2. En los routers PE se puede ver las siguientes configuraciones adicionales:
+  * El rango de labels mediante el comando *mpls label range n m*
+  * La declaracion de que el TTL no sea transmitido fuera de la red que admite MPLS  mediante el comando *no mpls ip propagate-ttl*
+  * En las interfaces internas se define esto con la sentencia *mpls ip*
+  
+  3. MPLS utiliza un sistema de circuitos virtuales donde cada paquete al entrar a la red, si es posible, se le agrega un header de MPLS(entre el header de IP y el de Ethernet, si estos fueran los protocolos usados) y luego hasta que el paquete egresa de esta se utiliza dicho header para routear al paquete. La informacion de como routear estos labels se hace mediante LDP (o TDP para Cisco).
+  5. LDP utiliza 646. Sin embargo, el equivalente de Cisco, TDP, utiliza el puerto 711, por lo que este es el que se puede observar mediante el mencionado comando.
+  7. No hay rutas a las redes externas a la Service Provider Network, es decir por fuera del dominio de MPLS.
+  8. 
+  9.
+  
