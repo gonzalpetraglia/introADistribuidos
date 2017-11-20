@@ -115,7 +115,11 @@ protocol ip 192.168.25.4 broadcast
   * En las interfaces internas se define esto con la sentencia *mpls ip*
   
   3. MPLS utiliza un sistema de circuitos virtuales donde cada paquete al entrar a la red, si es posible, se le agrega un header de MPLS(entre el header de IP y el de Ethernet, si estos fueran los protocolos usados) y luego hasta que el paquete egresa de esta se utiliza dicho header para routear al paquete. La informacion de como routear estos labels se hace mediante LDP (o TDP para Cisco).
+  
+  
   5. LDP utiliza 646. Sin embargo, el equivalente de Cisco, TDP, utiliza el puerto 711, por lo que este es el que se puede observar mediante el mencionado comando.
+  
+  
   7. No hay rutas a las redes externas a la Service Provider Network, es decir por fuera del dominio de MPLS.
   8. 
   9.
